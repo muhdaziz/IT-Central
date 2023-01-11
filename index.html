@@ -1,10 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
-</html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <!-- BOX ICONS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <!-- LOGO FONT -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Kenia&display=swap' rel='stylesheet' />
+    <!-- DESKTOP FONT -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'
+        rel='stylesheet' />
+    <!-- MOBILE FONT -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap'
+        rel='stylesheet' />
+    <link rel='stylesheet' href='./assets/css/styles.css' />
+    <title>iTCentral</title>
+</head>
+
+<body>
+    <!--! POPUP !-->
+    <div class="popup" id="popup">
+        <p>Light mode on</p>
+    </div>
+    <!--! POPUP !-->
+
+    <!--* ================ *-->
+
+    <!--! HEADER !-->
+    <header>
+        <div class="header_container">
+            <a href="#" class="logo">
+                <img src="./assets/img/favicon.png" alt="logo" />
+            </a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#about-us" class="link">About</a></li>
+                    <li><a href="#courses" class="link">Courses</a></li>
+                    <li><a href="#out-services" class="link">Services</a></li>
+                    <li><a href="#contact" class="link">Reach Us</a></li>
+                </ul>
+                <div class="mode" id="mode">
+                    <img src="./assets/img/moon.png" />
+                </div>
+                <div class="toggler" id="toggler">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--! HEADER !-->
+
+    <!--* ================ *-->
+
+    <!--! HOME SECTION !-->
+    <section id="home" class="home">
+        <div class="wrapper">
+            <!-- TODO: ARROW CONTROLS -->
+            <div class="arrow left" id="left-arrow">
+                <span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 6L9 12L15 18" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </span>
+            </div>
+            <div class="arrow right" id="right-arrow">
+                <span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </span>
+            </div>
+            <!-- TODO: ARROW CONTROLS -->
+            <div class="slides-container">
+                <div class="slide-image">
+                    <div class="title">
+                        <h1>Slide 1</h1>
+                        <p>This is the second slide</p>
+                    </div>
+                    <div class="overlay"></div>
+                    <img src="./assets/img/hero1.jpg" alt="banner 1" />
+                </div>
+                <div class="slide-image">
+                    <div class="title">
+                        <h1>Slide 2</h1>
+                        <p>This is the third slide</p>
+                    </div>
+                    <div class="overlay"></div>
+                    <img src="./assets/img/hero2.jpg" alt="banner 2" />
+                </div>
+                <div class="slide-image">
+                    <div class="title">
+                        <h1>Slide 3</h1>
+                        <p>This is the fourth slide</p>
+                    </div>
+                    <div class="overlay"></div>
+                    <img src="./assets/img/hero3.jpg" alt="banner 3" />
+                </div>
+            </div>
+            <div class="navigation-dots"></div>
+        </div>
+        </div>
+    </section>
+    <!--! HOME SECTION !-->
+
+    <!--* ================ *-->
+
+    <!--! ABOUT SECTION !-->
+    <section id="about-us">
+        <div class="section-container">
+            <h1>About us</h1>
+        </div>
+    </section>
+    <!--! ABOUT SECTION !-->
+
+    <!--* ================ *-->
+
+    <!--! COURSES SECTION !-->
+    <section id="courses">
+        <div class="section-container">
+            <h1>Courses</h1>
+        </div>
+    </section>
+    <!--! COURSES SECTION !-->
+
+    <!--* ================ *-->
+
+    <!--! SERVICES SECTION !-->
+    <section id="out-services" class="services">
+        <div class="section-container">
+            <h1>Services</h1>
+        <p>enenatis urna cursus eget nunc scelerisque viverra mauris. Massa tempor nec feugiat nisl pretium fusce id velit ut. Sit amet nisl purus.</p>
+
+        <div class="cards">
+            <div class="card">
+    <div class="image">
+      <!-- <img src="./assets/img/hero1.jpg"/> -->
+    </div>
+    <div class="details">
+      <div class="center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit.</p>
+      </div>
+    </div>
+            </div>
+            <div class="card">
+    <div class="image">
+      <!-- <img src="./assets/img/hero1.jpg"/> -->
+    </div>
+    <div class="details">
+      <div class="center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit.</p>
+      </div>
+    </div>
+            </div>
+            <div class="card">
+    <div class="image">
+      <!-- <img src="./assets/img/hero1.jpg"/> -->
+    </div>
+    <div class="details">
+      <div class="center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit.</p>
+      </div>
+    </div>
+            </div>
+            <div class="card">
+    <div class="image">
+      <!-- <img src="./assets/img/hero1.jpg"/> -->
+    </div>
+    <div class="details">
+      <div class="center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugit.</p>
+      </div>
+    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--! SERVICES SECTION !-->
+
+    <!--* ================ *-->
+
+    <!--! CONTACT SECTION !-->
+    <section id="contact">
+        <div class="section-container">
+            <h1>Contact</h1>
+        </div>
+    </section>
+    <!--! CONTACT SECTION !-->
+
+    <!--* ================ *-->
+
+    <script src='./assets/js/app.js' type='module'></script>
+</body>
+</head>
