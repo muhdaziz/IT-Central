@@ -609,3 +609,156 @@ section.services .section-container > p {
 .card:hover .back {
   transform: perspective(800px) rotateY(0);
 }
+
+/* action section begins here */
+.action-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 7.8rem;
+  padding-right: 15.8rem;
+  padding-bottom: 7.8rem;
+  padding-left: 15.8rem;
+}
+
+.action-left {
+  display: flex;
+  height: 40rem;
+  width: 40rem;
+  overflow: auto;
+  margin-right: 10rem;
+}
+
+.action-left > img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 5%;
+}
+
+.action-right {
+  display: flex;
+  flex-direction: column;
+  width: 65rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.action_right_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  gap: 4rem;
+}
+
+.action_right_text > h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.action_right_text > p {
+  font-size: 1.5rem;
+}
+/* action button begins here */
+/*attempt3 @import url("https://fonts.googleapis.com/css?family=Mukta:700");
+
+.action_button_container {
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f8fa;
+}
+
+button.learn-more {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  width: 12rem;
+  height: auto;
+  color: #282936;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+button.learn-more:hover:before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.625rem;
+  background: #282936;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+button.learn-more:hover:after {
+  content: "";
+  position: absolute;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0.625rem;
+  right: 0;
+  margin: auto;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+button.learn-more:hover:after:before {
+  content: "";
+  position: absolute;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+  top: -0.25rem;
+  right: 0.0625rem;
+}
+
+button.learn-more:hover {
+  color: #fff;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+} */
+
+.action_right_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action_button {
+  background-color: blue;
+  color: white;
+  width: 15rem;
+  height: 4.5rem;
+  padding: 1rem 2rem;
+  margin: 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.action_button:hover {
+  transform: scale(1.1);
+}
+/* action button ends here */
+/* action section ends here */
